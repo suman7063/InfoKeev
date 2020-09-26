@@ -1,0 +1,81 @@
+$fontSize: 16px;
+$fontSizeSmall: 12px;
+$blueColor: #3BCCF6;
+$iconSize: 18px;
+
+body{
+    margin: 0px;
+}
+.searchMainDiv{
+    width: 450px;
+    input[type="text"]{
+        border: none;
+        outline: none;
+        :focus{
+            outline: none;
+        }
+    }
+    svg{
+        width: $iconSize;
+    }
+}
+
+.kiCommonCss{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 50px;
+    display: flex;
+   
+}
+.kiCollapseDiv{
+    margin-top: -10px;
+    .MuiTab-wrapper {
+        height: 27px;
+        text-transform: none;
+    }
+    .MuiTabs-indicator{
+        display: none;
+    }
+    .Mui-selected {
+    
+        color: $blueColor;
+    }
+    .MuiTabScrollButton-vertical {
+        svg{
+            width: 25px;
+            height: 25px;
+            border-radius: 100%;
+            background-color: lightgray;
+            opacity: .5;
+        }
+    }
+}
+
+.kiUserProMain{
+    padding-left: 16px;
+    img{
+    border-radius: 100%;
+    }
+    div{
+        font-size: $fontSize;
+        color: #707070;
+        margin-left: 10px;
+        p{
+            font-size: $fontSizeSmall;
+            margin: 0px;
+        }
+    }
+    
+}
+.kiMakeLabaleDiv{
+    width: 90%;
+    p{
+        font-size: $fontSize;
+    }
+    svg{
+        width: $iconSize
+    }
+}
