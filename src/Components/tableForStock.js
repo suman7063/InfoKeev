@@ -300,7 +300,7 @@ export default function TableForStock() {
               onRequestSort={handleRequestSort}
               rowCount={tableData.length}
             />
-            <TableBody>
+            {/* <TableBody>
               {
                 (rowsPerPage) > 0 ?
                 tableData.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage):
@@ -333,15 +333,14 @@ export default function TableForStock() {
                       <TableCell align="right">{row.protein}</TableCell>
                     </TableRow>
                   );
-                }):
-                null
+                })
               }
               {emptyRows > 0 && (
                 <TableRow>
                   <TableCell colSpan={6} />
                 </TableRow>
               )}
-            </TableBody>
+            </TableBody> */}
           </Table>
         </TableContainer>
         <TablePagination
