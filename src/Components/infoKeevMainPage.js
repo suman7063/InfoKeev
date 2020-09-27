@@ -1,14 +1,12 @@
 import React, { useState, Fragment } from 'react'
-import { Tabs, Button, Collapse, Box, Grid, Tab } from '@material-ui/core'
+import { Tabs, Button, Collapse,Box} from '@material-ui/core'
 import HeaderForKeevinfo from './header/headerForKeevInfo'
 import UserProfile from './userprofile'
 import { useStyles } from './useStyle'
 import { tabs } from '../Components/makesTabLabelDiv'
 import TabPanel from './tabPanel'
-import clsx from 'clsx'
-import openLeftNavAction from "../redux/actions"
-import { Provider,useSelector,useDispatch} from 'react-redux'
-import store from '../redux/store'
+import DashboardContent from "./dashBoardContent"
+import {useSelector,useDispatch} from 'react-redux'
 
 const InfoKeevMain = (props) => {
     const classes = useStyles();
@@ -54,8 +52,7 @@ const InfoKeevMain = (props) => {
                 </Box>
                 <Box style={{ backgroundColor: '#F5F5F5', height: '800px', width: '100%' }}>
                     <TabPanel value={value} index={0}>
-                    <button onClick={()=>dispatch(openLeftNavAction())}></button>
-                    {no}
+                        <DashboardContent/>
                     </TabPanel>
                     {/*
                     <TabPanel value={value} index={1}>
@@ -73,17 +70,4 @@ const InfoKeevMain = (props) => {
     );
 }
 
-// const mapStatetoProps=(state)=>{
-//     return{
-//        numberOfBook: state.openNav.numberOfBooks
-//     }
-//    }
-   
-//    const mapDispatchtoProps=(dispatch)=>{
-//     return{
-//        buyBook:function(){
-//            dispatch(openLeftNavAction());
-//        }  
-//     }
-//    }
 export default InfoKeevMain

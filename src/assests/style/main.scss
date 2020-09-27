@@ -1,8 +1,13 @@
 $fontSize: 16px;
 $fontSizeSmall: 12px;
 $blueColor: #3BCCF6;
+$fontSizeMiddle: 18px;
+$fontSizeLarge: 25px;
 $iconSize: 18px;
 
+.setMarginTop{
+ margin-top: 30px !important;
+}
 body{
     margin: 0px;
 }
@@ -28,6 +33,9 @@ body{
     text-align: left;
     margin-top: 50px;
     display: flex;
+    .MuiTabs-indicator{
+        display: none;
+    }
    
 }
 .kiCollapseDiv{
@@ -36,11 +44,8 @@ body{
         height: 27px;
         text-transform: none;
     }
-    .MuiTabs-indicator{
-        display: none;
-    }
+   
     .Mui-selected {
-    
         color: $blueColor;
     }
     .MuiTabScrollButton-vertical {
@@ -78,4 +83,20 @@ body{
     svg{
         width: $iconSize
     }
+}
+
+.kiBoxCommon{
+    padding: 20px;
+    border-radius: 13px;
+    color: #fff;
+    text-align: left;
+    width: 90%;
+}
+.boxOneBtnHead{
+    font-size: $fontSizeMiddle;
+    margin: 0px;
+}
+.boxOneBtnPrice{
+    font-size: $fontSizeLarge;
+    margin: 0px;
 }

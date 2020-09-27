@@ -10,12 +10,12 @@ const TabPanel = (props) =>{
     <div
       role="tabpanel"
       hidden={value !== index}
-      id={`vertical-tabpanel-${index}`}
-      aria-labelledby={`vertical-tab-${index}`}
+      id={index}
+      aria-labelledby={index}
       {...other}
     >
       {value === index && (
-        <Box>
+        <Box p={3}>
           <Typography component="span">{children}</Typography>
         </Box>
       )}
