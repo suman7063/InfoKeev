@@ -233,8 +233,9 @@ export default function TableForStock() {
       axios.get('stockData.json').then(res =>{
         setTableData(res.data)
       })
+      console.log("table",tableData)
   });
-  console.log("table",tableData)
+ 
   const handleSelectAllClick = (event) => {
     if (event.target.checked) {
       const newSelecteds = tableData.map((n) => n.name);
