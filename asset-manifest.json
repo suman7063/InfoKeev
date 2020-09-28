@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/InfoKeev/static/css/main.346dfceb.chunk.css",
+    "main.js": "/InfoKeev/static/js/main.a162842a.chunk.js",
+    "main.js.map": "/InfoKeev/static/js/main.a162842a.chunk.js.map",
+    "runtime-main.js": "/InfoKeev/static/js/runtime-main.e7bf39c0.js",
+    "runtime-main.js.map": "/InfoKeev/static/js/runtime-main.e7bf39c0.js.map",
+    "static/js/2.ae77ec44.chunk.js": "/InfoKeev/static/js/2.ae77ec44.chunk.js",
+    "static/js/2.ae77ec44.chunk.js.map": "/InfoKeev/static/js/2.ae77ec44.chunk.js.map",
+    "index.html": "/InfoKeev/index.html",
+    "precache-manifest.8ecd81aecbe4ef791bd95b7f4f57639a.js": "/InfoKeev/precache-manifest.8ecd81aecbe4ef791bd95b7f4f57639a.js",
+    "service-worker.js": "/InfoKeev/service-worker.js",
+    "static/css/main.346dfceb.chunk.css.map": "/InfoKeev/static/css/main.346dfceb.chunk.css.map",
+    "static/js/2.ae77ec44.chunk.js.LICENSE.txt": "/InfoKeev/static/js/2.ae77ec44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7bf39c0.js",
+    "static/js/2.ae77ec44.chunk.js",
+    "static/css/main.346dfceb.chunk.css",
+    "static/js/main.a162842a.chunk.js"
+  ]
+}
