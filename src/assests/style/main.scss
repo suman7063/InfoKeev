@@ -3,7 +3,7 @@ $fontSizeSmall: 12px;
 $blueColor: #3BCCF6;
 $fontSizeMiddle: 18px;
 $fontSizeLarge: 25px;
-$iconSize: 18px;
+$iconSize: 22px;
 
 .setMarginTop{
  margin-top: 30px !important;
@@ -12,7 +12,6 @@ body{
     margin: 0px;
 }
 .searchMainDiv{
-    width: 450px;
     input[type="text"]{
         border: none;
         outline: none;
@@ -36,7 +35,11 @@ body{
     .MuiTabs-indicator{
         display: none;
     }
-   
+    .MuiTableContainer-root {
+        width: 90%;
+        overflow-x: auto;
+        padding: 5%;
+    }
 }
 .kiCollapseDiv{
     margin-top: -10px;
@@ -86,17 +89,21 @@ body{
 }
 
 .kiBoxCommon{
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 13px;
     color: #fff;
     text-align: left;
-    width: 90%;
+    width: 80%;
 }
 .boxOneBtnHead{
-    font-size: $fontSizeMiddle;
+    font-size: $fontSize;
     margin: 0px;
 }
 .boxOneBtnPrice{
     font-size: $fontSizeLarge;
     margin: 0px;
+}
+.kiPendingBtn{
+    width: 130px;
+    color: #fff !important;
 }

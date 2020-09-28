@@ -12,7 +12,7 @@ const useStyles2 = makeStyles({
   },
 });
 
-export const TableForStock = () => {
+export const TableForPrice = () => {
   const classes = useStyles2();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);
@@ -40,7 +40,7 @@ export const TableForStock = () => {
         <TableHead>
           <TableRow>
             <TableCell colSpan={5} style={{borderBottom: 'none'}}>
-              <p className="boxOneBtnPrice">Stock Total</p>
+              <p className="boxOneBtnPrice">Total Profit</p>
             </TableCell>
           </TableRow>
           <TableRow style={{ height: '20px' }}>

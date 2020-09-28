@@ -1,12 +1,12 @@
 import React from 'react';
 import { Tab, Box } from '@material-ui/core';
 
-import {tabsVal} from '../dummyData/leftpanelData'
+import { tabsVal } from '../dummyData/leftpanelData'
 
 const a11yProps = (index) => {
     return {
         id: index,
-        "aria-controls": {index},
+        "aria-controls": { index },
     };
 };
 const MakeLabel = (props) => {
